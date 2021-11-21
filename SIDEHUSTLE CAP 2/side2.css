@@ -1,0 +1,466 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+    /* Barlow */
+
+    /* font-family: 'Barlow', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+
+/* Fraunces */
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+ */
+
+
+.container{
+    background: url("./images/desktop/image-header.jpg") center center/cover no-repeat;
+    height: 100vh;
+    
+}
+
+.pic1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:50%;
+    
+}
+
+.pic1  h1{
+    font-size: 50px;
+    position: relative;
+    right:30px;
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+
+}
+h1, h3{
+    font-family: 'Fraunces', serif;
+}
+h3{
+    font-size: 25px ;
+
+}
+
+
+.pic1 p{
+    font-size: 22px;
+    margin: 0 90px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: hsl(232, 10%, 55%);
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.pic1 h3{
+    position: relative;
+    right:187px;
+    top:20px;
+    font-size: 25px;
+
+}
+
+.pic1 h3:hover{
+    border-bottom: 10px yellow solid;
+    cursor: pointer;
+
+}
+.pic2{
+    background: url("./images/desktop/image-transform.jpg") center center/cover no-repeat;
+    height: 80vh;
+    width:50%;
+}
+.pic4 p{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: hsl(232, 10%, 55%);
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.pic4 h1{
+    font-size: 45px;
+    
+    
+
+
+}
+
+
+.pic4 h3:hover{
+    border-bottom: 10px hsla(7, 99%, 70%, 0.6) solid;
+    width:26%;
+    cursor: pointer;
+    
+    
+
+}
+.pic4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   
+    
+}
+.pic4 p, h1{
+    font-size: 22px;
+    margin: 0 90px;
+
+
+}
+.pic4 p{
+    line-height: 40px;
+}
+
+.pic4 h3{
+    margin: 0 90px;
+    margin-top:20px;
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.pic3{
+    background: url("./images/desktop/image-stand-out.jpg")center center/cover;
+    height: 80vh;
+    width:50%;
+
+}
+.pic4{
+    height: 80vh;
+    width:50%;
+
+
+}
+
+.pic5{
+    background: url("./images/desktop/image-graphic-design.jpg")center center/cover;
+    height: 80vh;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic5 h1{
+    position: relative;
+    top:20%;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    color: hsl(167, 40%, 24%);
+    margin-bottom:10px;
+}
+
+.pic5 p{
+    position: relative;
+    top:20%;
+    margin:0 10px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    
+}
+
+
+.pic6{
+    background: url("./images/desktop/image-photography.jpg")center center/cover;
+    height: 80vh;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pic6 h1{
+    position: relative;
+    top:20%;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    color: hsl(198, 62%, 26%);
+    margin-bottom:10px;
+}
+
+.pic6 p{
+    position: relative;
+    top:20%;
+    margin:0 10px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    margin:0 30px;
+   
+
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    margin-top:100px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+
+    
+   
+}
+.pics p{
+    font-size: 18px;
+    color: hsl(213, 9%, 39%);
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    margin:0 20px;
+    text-align: center;
+    line-height: 1.5;
+
+   
+}
+.pics h5{
+    font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+    color:hsl(210, 4%, 67%);
+}
+
+.pics h1{
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+
+
+.container8{
+    background-color: hsl(168, 37%, 62%);
+    font-family: "Barlow", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+}
+
+.container8 h1{
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-family: 'Red Hat Display', sans-serif; 
+    font-weight: 900;
+    color: hsl(167, 40%, 24%);
+    width: 200;
+
+
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    font-family: "Barlow", sans-serif;
+
+    
+}
+
+.nav2 a{
+    text-align: center;
+    text-decoration: none;
+    color:hsl(167, 40%, 24%);
+    margin-bottom: 30px;
+}
+
+.nav2 li{
+    list-style: none;
+   margin:0 20px;
+}
+
+
+.nav1{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    /* margin-right:20px; */
+    margin-right:120px;
+}
+
+.icons img {
+    margin:20px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    position: relative;
+    top:30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.nav h1{
+    margin-left:120px;
+    font-size:28px;
+    color:white;
+    font-family: 'Red Hat Display', sans-serif !important;
+
+}
+
+.nav a{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+}
+
+.list1{
+    margin-right:30px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.container p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:200px;
+    font-size: 70px;
+    font-family: 'Fraunces', serif;
+    color:white;
+}
+.container img{
+    position: absolute;
+    left:47%;
+}
+button{
+    color:black;
+    background: hsl(51, 100%, 49%);
+    border-radius: 10px ;
+    width:100px;
+    /* height: 30px; */
+    padding:10px 0;
+    border-radius: 20px;
+    border:none;
+    text-align: center;
+    position: relative;
+    bottom:5px;
+    font-family: 'Fraunces', serif;
+
+    
+    
+}
+
+button:hover{
+    z-index: 1;
+    opacity:0.85;
+    cursor: pointer;
+    background-color: transparent;
+    border:1px solid rgba(255, 255, 255, 0);
+    color:white;
+
+}
+
+.para{
+    display: flex;
+    justify-content:center;
+}
+
+.container7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+
+}
+
+.container7 img{
+   width:360px;
+}
+
+.pics img{
+    border-radius: 50%;
+    height: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container6{
+    height:100%;
+    margin:0 100px;
+    
+    
+}
+
+.quote1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.quote2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.para p{
+    margin-top:100px;
+    font-size:30px;
+    font-size: clamp(1.3rem, 2vw, 2.5rem);
+    font-family: 'Fraunces', serif;
+    color: hsl(210, 4%, 67%);
+}
+
+.nav2 a:hover{
+    color:white;
+}
+.icons img:hover{
+    background-color:white;
+    cursor: pointer;
+    opacity: .5;
+}
+
+
